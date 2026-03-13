@@ -10,16 +10,26 @@
 
 | Campo | Informação |
 | ------- | ----------- |
-| **Nome do Grupo** | *(preencher)* |
-| **Integrantes** | *(listar todos)* |
-| **E-mail de contato** | *(preencher)* |
-| **Comunidade parceira** | *(preencher)* |
+| **Nome do Grupo** | Grupo 5 |
+| **Integrantes** | Alexandre Francisco pereira do Amaral |
+                  | Geovanna Pereira Sargaço |
+                  | Jean Willian Silva |
+                  | Otávio Magalhães Almeida Andrade |
+                  | Pedro Fonseca Prado |
+                  | Tiago da Silva Farias |
+| **E-mail de contato** | alexandreamaral843@gmail.com |
+                        | geovannapereira922@gmail.com |
+                        | jeanwilliansilvap68@gmail.com |
+                        | otaviomagalhaes25@gmail.com |
+                        | pedrofprado219@gmail.com |
+                        | tiagofarias209@gmail.com |
+| **Comunidade parceira** | Tarso de Coimbra |
 
 ---
 
 ## 🎯 Software a Ser Desenvolvido
 
-(Descreva brevemente a aplicação que será desenvolvida e seu objetivo.)
+Nosso grupo irá desenvolver um site que possui mini-games que envolvem o tema valores. Dentre os mini-games estão: Conectar no semelhante e qual é o valor correto de acordo com a situação apresentada. O site terá como objetivo ser o mais amigável possível com os alunos alvo, satisfazendo as necessidades de cada aluno, bem como o tema principal proposto na reunião.
 
 ---
 
