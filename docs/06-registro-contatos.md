@@ -30,7 +30,7 @@
 **Resumo do que foi tratado:**
 Os principais objetivos e necessidades apontadas pela comunidade envolvem a necessidade de desenvolver um tema anual. Neste ano, o tema escolhido foi valores.
 A representante da comunidade deu algumas ideias de aplicação, envolvendo jogos simples que integram os alunos com a tecnologia e com os temas alvos.
-Os pontos obrigatórios do projeto envolve estar dentro do tema proposto (Valores), ser de fácil acesso e ser amigável para o público alvo. 
+Os pontos obrigatórios do projeto envolvem estar dentro do tema proposto (Valores), ser de fácil acesso e ser amigável para o público alvo. 
 
 **Encaminhamentos:**
 As próximas interações envolvem confirmar com a comunidade as ferramentas necessárias e se as possuem para fácil acesso do público alvo com o projeto.
