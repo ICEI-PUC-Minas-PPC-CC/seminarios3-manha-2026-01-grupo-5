@@ -1,7 +1,7 @@
 # 06 — Registro de Contatos com a Comunidade
 
-> **Grupo:** *(preencher)*  
-> **Comunidade:** *(preencher)*
+> **Grupo:** Grupo 5  
+> **Comunidade:** Escola Municipal Doutor Tarso de Coimbra
 
 ---
 
@@ -16,17 +16,25 @@
 
 | Campo | Informação |
 | ------- | ----------- |
-| Data | |
-| Forma de contato | *(Presencial / Online / E-mail / Telefone / WhatsApp)* |
-| Participantes do grupo | |
-| Participantes da comunidade | |
-| Objetivo do contato | |
+| Data | 06/03/2026 |
+| Forma de contato | Online |
+| Participantes do grupo | Alexandre Francisco Pereira do Amaral |
+|                        | Geovanna Pereira Sargaço |
+|                        | Jean Willian Silva |
+|                        | Otávio Magalhães Almeida Andrade |
+|                        | Pedro Fonseca Prado |
+|                        | Tiago da Silva Farias |
+| Participantes da comunidade | Professora Fabiana Scassiotti Fernandes Solia |
+| Objetivo do contato | Entender as principais demandas e necessidades da comunidade envolvendo a área da tecnologia |
 
 **Resumo do que foi tratado:**
-(Descrever o que foi discutido, decisões tomadas, demandas identificadas.)
+Os principais objetivos e necessidades apontadas pela comunidade envolvem a necessidade de desenvolver um tema anual. Neste ano, o tema escolhido foi valores.
+A representante da comunidade deu algumas ideias de aplicação, envolvendo jogos simples que integram os alunos com a tecnologia e com os temas alvos.
+Os pontos obrigatórios do projeto envolve estar dentro do tema proposto (Valores), ser de fácil acesso e ser amigável para o público alvo. 
 
 **Encaminhamentos:**
-(O que ficou combinado para a próxima interação?)
+As próximas interações envolvem confirmar com a comunidade as ferramentas necessárias e se as possuem para fácil acesso do público alvo com o projeto.
+Além disso, pequenos protótipos podem ser apresentados para a representante da comunidade caso seja necessário alterar a interface para torná-la amigável ao público alvo.
 
 ---
 
@@ -70,6 +78,6 @@
 
 | # | Demanda | Prioridade | Como será atendida no software |
 | --- | --------- | :----------: | ------------------------------- |
-| 1 | | *(Alta/Média/Baixa)* | |
+| 1 | Tema proposto e acesso | Alto | Através de mini-jogos simples em um site |
 | 2 | | | |
 | 3 | | | |
