@@ -11,19 +11,19 @@
 | Campo | Informação |
 | ------- | ----------- |
 | **Nome do Grupo** | Grupo 5 |
-| **Integrantes** | Alexandre Francisco pereira do Amaral |
-                  | Geovanna Pereira Sargaço |
-                  | Jean Willian Silva |
-                  | Otávio Magalhães Almeida Andrade |
-                  | Pedro Fonseca Prado |
-                  | Tiago da Silva Farias |
+| **Integrantes** | Alexandre Francisco Pereira do Amaral |
+|                  | Geovanna Pereira Sargaço |
+|                  | Jean Willian Silva |
+|                  | Otávio Magalhães Almeida Andrade |
+|                  | Pedro Fonseca Prado |
+|                  | Tiago da Silva Farias |
 | **E-mail de contato** | alexandreamaral843@gmail.com |
-                        | geovannapereira922@gmail.com |
-                        | jeanwilliansilvap68@gmail.com |
-                        | otaviomagalhaes25@gmail.com |
-                        | pedrofprado219@gmail.com |
-                        | tiagofarias209@gmail.com |
-| **Comunidade parceira** | Tarso de Coimbra |
+|                        | geovannapereira922@gmail.com |
+|                        | jeanwilliansilvap68@gmail.com |
+|                        | otaviomagalhaes25@gmail.com |
+|                        | pedrofprado219@gmail.com |
+|                        | tiagofarias209@gmail.com |
+| **Comunidade parceira** | Escola Municipal Doutor Tarso de Coimbra |
 
 ---
 
