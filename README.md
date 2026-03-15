@@ -19,7 +19,7 @@
 |                  | Tiago da Silva Farias |
 | **E-mail de contato** | alexandreamaral843@gmail.com |
 |                        | geovannapereira922@gmail.com |
-|                        | jeanwilliansilvap68@gmail.com |
+|                        | jean.silva.1391332@sga.pucminas.br |
 |                        | otaviomagalhaes25@gmail.com |
 |                        | pedrofprado219@gmail.com |
 |                        | tiagofarias209@gmail.com |
