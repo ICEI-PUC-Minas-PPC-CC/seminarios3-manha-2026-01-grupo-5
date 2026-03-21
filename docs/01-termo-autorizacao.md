@@ -2,7 +2,7 @@
 
 > **Status:**  (adicione um "x" para completar cada nível)
 
-- [] Visualizado
+- [ ] Visualizado
 - [ ] Pendente
 - [x] Enviado ao professor
 - [ ] Aprovado  
