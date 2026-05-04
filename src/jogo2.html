@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos dos Valores - Ache o Semelhante</title>
+    <link rel="stylesheet" href="jogo2.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="header-container">
+            <div class="logo-area">
+                <img src="logo.png" alt="Logo do site" class="logo-img">
+                <h1>Jogos dos <span>Valores</span></h1>
+            </div>
+            <nav>
+                <a href="inicio.html">Início</a> | 
+                <a href="instrucoes.html">Instruções</a> | 
+                <a href="contato.html">Contato</a>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <section class="game-box">
+                <h2>Jogo da Memória</h2>
+                <p class="subtitle">Encontre as cartas iguais!</p><br></br>
+                
+                <div id="memory-grid" class="memory-grid"></div>
+
+                <button id="btn-jogar" class="btn-play-action">Jogar</button>
+            </section>
+        </main>
+
+        <footer class="footer-controls">
+            <button class="help-btn">🤟 Como Jogar?</button>
+            <button class="help-btn blue">▶ Tutorial em LIBRAS</button>
+        </footer>
+    </div>
+
+    <script src="jogo2.js"></script>
+
+     <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    
+</body>
+</html>

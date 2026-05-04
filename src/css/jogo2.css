@@ -1,0 +1,184 @@
+:root {
+    --azul-fundo: #d0ebff;
+    --azul-header: #1e88e5;
+    --azul-botao-libras: #5baae5;
+    --laranja-valores: #f44336;
+    --verde-jogar: #84cc16;
+    --verde-sombra: #65a30d;
+    --branco: #ffffff;
+    --texto-cinza: #64748b;
+    --azul-card: #93c5fd; /* Cor das cartas fechadas */
+    --correto: #84cc16;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Comfortaa', cursive, sans-serif;
+    background-color: var(--azul-fundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 1000px;
+    background: var(--branco);
+    border-radius: 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.header-container {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, #b3e5fc, #ffffff);
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.logo-area h1 {
+    font-size: 28px;
+    color: var(--azul-header);
+}
+
+.logo-area h1 span {
+    color: var(--laranja-valores);
+}
+
+nav {
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--azul-header);
+    margin: 0 5px;
+}
+
+.game-box {
+    background: #e0f2fe;
+    border-radius: 30px;
+    padding: 30px;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #bae6fd;
+}
+
+.game-box h2 {
+    color: #2c7bb6;
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: var(--texto-cinza);
+    margin-bottom: 25px;
+}
+
+/* GRID DE MEMÓRIA */
+.memory-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.memory-item {
+    aspect-ratio: 1/1;
+    background: var(--azul-card);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px; /* Tamanho do ícone/emoji */
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 6px 0 #60a5fa;
+    transition: all 0.2s ease;
+    user-select: none;
+}
+
+/* Estado da Carta: Virada (Fundo Branco) */
+.memory-item.flipped {
+    background: var(--branco) !important;
+    color: #ef4444;
+    transform: rotateY(180deg);
+    box-shadow: none;
+    border: 2px solid var(--azul-header);
+}
+
+/* Estado da Carta: Acerto (Borda Verde) */
+.memory-item.correct {
+    border: 5px solid var(--correto) !important;
+    background: #f0fdf4 !important;
+    pointer-events: none;
+}
+
+.btn-play-action {
+    background: var(--verde-jogar);
+    color: white;
+    border: none;
+    padding: 15px 60px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 6px 0 var(--verde-sombra);
+    cursor: pointer;
+    font-family: 'Comfortaa', sans-serif;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-play-action:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 var(--verde-sombra);
+}
+
+.btn-play-action:disabled {
+    background: #94a3b8;
+    box-shadow: 0 6px 0 #64748b;
+    cursor: not-allowed;
+}
+
+.footer-controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.help-btn {
+    background: #f1f5f9;
+    border: 2px solid #e2e8f0;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #334155;
+    font-family: 'Comfortaa', sans-serif;
+    cursor: pointer;
+}
+
+.help-btn.blue {
+    color: #0369a1;
+}

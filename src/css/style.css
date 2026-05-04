@@ -1,0 +1,182 @@
+/* Reset e Base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0f2fe;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+/* Header */
+.header-container {
+    width: 100%;
+    background: linear-gradient(to bottom, #bae6fd, #ffffff);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo-area { display: flex; align-items: center; gap: 10px; }
+.logo-area h1 { color: #0284c7; font-size: 1.8rem; }
+.logo-area h1 span { color: #ef4444; }
+
+.btn-libras-top {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Container Principal */
+.main-content {
+    width: 90%;
+    max-width: 900px;
+    margin-top: 30px;
+}
+
+.game-card {
+    background: white;
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.game-card h2 { color: #0369a1; margin-bottom: 5px; }
+.game-card p { color: #64748b; margin-bottom: 25px; }
+
+/* --- JOGO 1: Padronização dos Ícones --- */
+.match-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.word-btn {
+    display: block;
+    width: 220px;
+    margin: 15px 0;
+    padding: 18px;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    box-shadow: 0 5px #d35400;
+    cursor: pointer;
+}
+
+.symbol-card {
+    width: 220px;      /* Mesma largura para todos */
+    height: 90px;      /* Mesma altura para todos */
+    margin: 15px 0;
+    border: 3px solid #cbd5e1;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8fafc;
+    overflow: hidden;
+}
+
+.symbol-card img {
+    max-width: 85%;    /* Garante que a imagem não encoste na borda */
+    max-height: 85%;
+    object-fit: contain;
+}
+
+/* --- JOGO 2: Grid da Memória --- */
+.memory-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto 25px;
+}
+
+.memory-item {
+    aspect-ratio: 1/1;
+    background-color: #7dd3fc;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 4px solid transparent;
+}
+
+/* ACERTO (Verde) */
+.memory-item.correct {
+    background-color: #22c55e !important;
+    border-color: #166534;
+}
+
+/* ERRO (Vermelho) */
+.memory-item.wrong {
+    background-color: #ef4444 !important;
+    border-color: #991b1b;
+    animation: shake 0.4s;
+}
+
+/* Botão Jogar Geral */
+.btn-play {
+    background-color: #84cc16;
+    color: white;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0 5px #65a30d;
+    cursor: pointer;
+}
+
+/* Rodapé */
+.footer-controls {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.help-btn {
+    background-color: #f1f5f9;
+    border: 2px solid #e2e8f0;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.help-btn.blue { background-color: #dcf0fa; color: #0369a1; }
+
+/* Animação de Erro */
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background: #cbd5e1;
+    margin: 40px 0;
+}

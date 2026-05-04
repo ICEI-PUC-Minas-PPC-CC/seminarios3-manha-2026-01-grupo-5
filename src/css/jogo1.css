@@ -1,0 +1,200 @@
+/* Configurações Gerais baseadas no padrão da Home */
+:root {
+    --azul-fundo: #d0ebff;
+    --azul-botao: #5baae5;
+    --verde-jogar: #84cc16;
+    --verde-sombra: #65a30d;
+    --laranja-valor: #f97316;
+    --laranja-sombra: #c2410c;
+}
+
+* { 
+    box-sizing: border-box; 
+    margin: 0; padding: 0; 
+}
+
+body {
+    font-family: 'Comfortaa', cursive, sans-serif;
+    background-color: var(--azul-fundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 1000px;
+    background: white;
+    border-radius: 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+/* HEADER */
+.header-container {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, #b3e5fc, #ffffff);
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.logo-area h1 {
+    font-size: 28px;
+    color: var(--azul-header);
+}
+
+.logo-area h1 span {
+    color: var(--laranja-valores);
+}
+
+nav {
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--azul-header);
+    margin: 0 5px;
+}
+
+/* MAIN & GAME BOX */
+.main-content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.game-box {
+    background: #e0f2fe; /* Azul bem clarinho como no esboço */
+    border-radius: 30px;
+    padding: 30px;
+    width: 90%;
+    text-align: center;
+    border: 2px solid #bae6fd;
+}
+
+.game-box h2 { color: #2c7bb6; font-size: 32px; margin-bottom: 5px; }
+.subtitle { color: #64748b; margin-bottom: 25px; }
+
+/* MECÂNICA DE COMBINAR */
+.match-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Botões de Palavras (Estilo Laranja 3D do Esboço) */
+.word-btn {
+    background: var(--laranja-valor);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 5px 0 var(--laranja-sombra);
+    cursor: pointer;
+    width: 220px;
+}
+
+/* Cards de Imagem */
+.symbol-card {
+    background: white;
+    width: 150px;
+    height: 80px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #bae6fd;
+    overflow: hidden;
+}
+
+.symbol-card img { max-width: 80%; max-height: 80%; }
+
+
+
+/* FOOTER */
+.footer-controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.help-btn {
+    background: #f1f5f9;
+    border: 2px solid #e2e8f0;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #334155;
+    cursor: pointer;
+}
+
+.help-btn.blue { color: #0369a1; }
+
+/* ... restante do CSS anterior ... */
+
+.btn-play-action {
+    background: var(--verde-jogar);
+    color: white;
+    border: none;
+    padding: 15px 60px;
+    border-radius: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    box-shadow: 0 6px 0 var(--verde-sombra);
+    cursor: pointer;
+    margin: 0 auto; /* Garante a centralização */
+    display: block;  /* Necessário para o margin auto funcionar */
+    transition: all 0.1s;
+}
+
+.btn-play-action:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px 0 var(--verde-sombra);
+}
+
+/* Feedback para a Palavra Selecionada */
+.word-btn.selected {
+    background-color: var(--laranja-sombra); /* Fica mais escuro */
+    transform: translateY(3px); /* Efeito de pressionado */
+    box-shadow: 0 2px 0 var(--laranja-sombra); /* Sombra diminui */
+    border: 2px solid white;
+}
+
+/* Feedback para a Imagem Selecionada */
+.symbol-card.selected {
+    border: 5px solid var(--azul-botao); /* Borda destacada azul */
+    transform: scale(1.05); /* Leve aumento para destacar */
+    transition: all 0.2s ease;
+}
+
+/* Mantém o cursor de clique apenas quando o jogo está ativo */
+.word-btn, .symbol-card {
+    transition: all 0.2s ease;
+}

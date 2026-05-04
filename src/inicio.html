@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos dos Valores - LIBRAS</title>
+    <link rel="stylesheet" href="inicio.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="header-container">
+            <div class="logo-area">
+                <img src="logo.png" alt="Logo do site" class="logo-img">
+                <h1>Jogos dos <span>Valores</span></h1>
+            </div>
+            <nav>
+                <a href="inicio.html">Início</a> | 
+                 <a href="instrucoes.html">Instruções</a> | 
+                <a href="contato.html">Contato</a>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <h2>Escolha um Jogo</h2>
+            <p class="subtitle">Divirta-se aprendendo valores importantes!</p>
+            
+            <div class="games-selection">
+                <a href="jogo1.html" class="game-link">
+                    <div class="game-card">
+                        <div class="game-icon-container">
+                            <img src="combinacoes.png" alt="Desenho Combine a Palavra" class="game-icon-img">
+                        </div>
+                        <h3>Combine a Palavra</h3>
+                        <p>Relacione palavras as imagens</p>
+                        <button class="btn-play-small">Jogar</button>
+                    </div>
+                </a>
+
+                <a href="jogo2.html" class="game-link">
+                    <div class="game-card">
+                        <div class="game-icon-container">
+                            <img src="memoria.png" alt="Desenho Ache o Semelhante" class="game-icon-img">
+                        </div>
+                        <h3>Ache o Semelhante</h3>
+                        <p>Encontre as cartas iguais</p>
+                        <button class="btn-play-small">Jogar</button>
+                    </div>
+                </a>
+            </div>
+        </main>
+
+        <footer class="footer-controls">
+            <button class="help-btn">🤟 Como Jogar?</button>
+            <button class="help-btn blue">▶ Tutorial em LIBRAS</button>
+        </footer>
+    </div>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+</body>
+</html>
