@@ -1,21 +1,15 @@
 :root {
     --azul-fundo: #d0ebff;
     --azul-header: #1e88e5;
-    --azul-botao-libras: #5baae5;
     --laranja-valores: #f44336;
     --verde-jogar: #84cc16;
     --verde-sombra: #65a30d;
+    --azul-card: #93c5fd;
     --branco: #ffffff;
     --texto-cinza: #64748b;
-    --azul-card: #93c5fd; /* Cor das cartas fechadas */
-    --correto: #84cc16;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
     font-family: 'Comfortaa', cursive, sans-serif;
@@ -27,81 +21,58 @@ body {
 }
 
 .container {
-    width: 1000px;
+    width: 1100px; /* Aumentado de 950px para 1100px */
     background: var(--branco);
     border-radius: 40px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
     overflow: hidden;
-    padding-bottom: 30px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
 }
 
 .header-container {
-    padding: 20px 40px;
+    padding: 15px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(to bottom, #b3e5fc, #ffffff);
 }
 
-.logo-area {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.logo-img {
-    width: 60px;
-    height: 60px;
-    object-fit: contain;
-}
-
-.logo-area h1 {
-    font-size: 28px;
-    color: var(--azul-header);
-}
-
-.logo-area h1 span {
-    color: var(--laranja-valores);
-}
+.logo-img { width: 55px; height: 55px; object-fit: contain; }
+.logo-area h1 { font-size: 26px; color: var(--azul-header); }
+.logo-area h1 span { color: var(--laranja-valores); }
 
 nav {
-    font-weight: bold;
+    margin-right: 20px;
 }
 
 nav a {
     text-decoration: none;
     color: var(--azul-header);
-    margin: 0 5px;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .game-box {
-    background: #e0f2fe;
+    background: #f0f9ff;
     border-radius: 30px;
     padding: 30px;
-    width: 90%;
-    margin: 20px auto;
+    width: 95%;
+    margin: 15px auto;
     text-align: center;
-    border: 2px solid #bae6fd;
+    border: 2px solid #e0f2fe;
+    /* Adicionado para centralizar o conteúdo interno */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
-.game-box h2 {
-    color: #2c7bb6;
-    font-size: 32px;
-    margin-bottom: 5px;
-}
-
-.subtitle {
-    color: var(--texto-cinza);
-    margin-bottom: 25px;
-}
-
-/* GRID DE MEMÓRIA */
 .memory-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     gap: 15px;
-    max-width: 600px;
-    margin: 0 auto 30px;
+    margin: 20px auto; /* O 'auto' centraliza o bloco do grid */
+    width: fit-content; /* O grid se ajusta ao tamanho das cartas */
 }
 
 .memory-item {
@@ -111,26 +82,32 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 45px; /* Tamanho do ícone/emoji */
+    font-size: 2.2rem;
     color: white;
     cursor: pointer;
-    box-shadow: 0 6px 0 #60a5fa;
+    box-shadow: 0 5px 0 #60a5fa;
     transition: all 0.2s ease;
-    user-select: none;
+    width: 100px; /* Tamanho padrão para níveis 1 e 2 */
 }
 
-/* Estado da Carta: Virada (Fundo Branco) */
+/* ESTILO PARA NÍVEIS 3 E 4 (MAIS CARTAS) */
+.grid-compacto { gap: 8px; }
+.grid-compacto .memory-item {
+    width: 80px;      /* Reduz tamanho da carta */
+    font-size: 1.8rem; /* Reduz tamanho do ícone */
+    border-radius: 10px;
+    box-shadow: 0 4px 0 #60a5fa;
+}
+
 .memory-item.flipped {
     background: var(--branco) !important;
-    color: #ef4444;
     transform: rotateY(180deg);
     box-shadow: none;
     border: 2px solid var(--azul-header);
 }
 
-/* Estado da Carta: Acerto (Borda Verde) */
 .memory-item.correct {
-    border: 5px solid var(--correto) !important;
+    border: 4px solid var(--verde-jogar) !important;
     background: #f0fdf4 !important;
     pointer-events: none;
 }
@@ -139,20 +116,12 @@ nav a {
     background: var(--verde-jogar);
     color: white;
     border: none;
-    padding: 15px 60px;
+    padding: 14px 50px;
     border-radius: 20px;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     box-shadow: 0 6px 0 var(--verde-sombra);
     cursor: pointer;
-    font-family: 'Comfortaa', sans-serif;
-    display: block;
-    margin: 0 auto;
-}
-
-.btn-play-action:active {
-    transform: translateY(4px);
-    box-shadow: 0 2px 0 var(--verde-sombra);
 }
 
 .btn-play-action:disabled {
@@ -161,24 +130,13 @@ nav a {
     cursor: not-allowed;
 }
 
+.help-btn { background: #f1f5f9; border: 2px solid #e2e8f0; padding: 10px 20px; border-radius: 50px; font-weight: bold; cursor: pointer; }
+
 .footer-controls {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start; /* Alinha ao início */
     gap: 20px;
     margin-top: 10px;
-}
-
-.help-btn {
-    background: #f1f5f9;
-    border: 2px solid #e2e8f0;
-    padding: 12px 25px;
-    border-radius: 50px;
-    font-weight: bold;
-    color: #334155;
-    font-family: 'Comfortaa', sans-serif;
-    cursor: pointer;
-}
-
-.help-btn.blue {
-    color: #0369a1;
+    padding-left: 50px; /* Empurra os botões para a direita */
+    padding-right: 50px;
 }

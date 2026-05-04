@@ -1,0 +1,135 @@
+:root {
+    --azul-fundo: #d0ebff;
+    --azul-header: #1e88e5;
+    --laranja-valor: #f97316;
+    --laranja-sombra: #c2410c;
+    --verde-jogar: #84cc16;
+    --verde-sombra: #65a30d;
+    --branco: #ffffff;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: 'Comfortaa', cursive, sans-serif;
+    background-color: var(--azul-fundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 1100px; /* Aumentado como no Jogo 2 */
+    background: var(--branco);
+    border-radius: 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    overflow: hidden;
+    padding-bottom: 25px;
+}
+
+.header-container {
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, #b3e5fc, #ffffff);
+}
+
+.logo-img { width: 55px; height: 55px; object-fit: contain; }
+.logo-area h1 { font-size: 26px; color: var(--azul-header); }
+.logo-area h1 span { color: #f44336; }
+
+.game-box {
+    background: #f0f9ff;
+    border-radius: 35px;
+    padding: 40px;
+    width: 95%;
+    margin: 15px auto;
+    text-align: center;
+    border: 2px solid #e0f2fe;
+}
+
+.match-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 30px 0;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Estilo das Palavras */
+.word-btn {
+    background: var(--laranja-valor);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 20px;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 5px 0 var(--laranja-sombra);
+    cursor: pointer;
+    width: 200px;
+    transition: 0.2s;
+}
+
+.word-btn.selected {
+    background: var(--laranja-sombra);
+    transform: scale(1.05) translateY(3px);
+    box-shadow: 0 2px 0 var(--laranja-sombra);
+}
+
+/* Estilo das Imagens */
+.symbol-card {
+    background: white;
+    width: 130px;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #bae6fd;
+    cursor: pointer;
+    transition: 0.3s;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.symbol-card img { max-width: 100%; max-height: 100%; object-fit: contain; }
+
+.symbol-card.selected {
+    border: 5px solid var(--azul-header);
+    transform: scale(1.08);
+}
+
+.correct-match {
+    visibility: hidden; /* Faz sumir quando acerta */
+    pointer-events: none;
+}
+
+.btn-play-action {
+    background: var(--verde-jogar);
+    color: white;
+    border: none;
+    padding: 18px 60px;
+    border-radius: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 8px 0 var(--verde-sombra);
+    cursor: pointer;
+}
+
+.footer-controls {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 50px;
+}
+
+.help-btn { background: #f1f5f9; border: 2px solid #e2e8f0; padding: 10px 25px; border-radius: 50px; font-weight: bold; cursor: pointer; }
