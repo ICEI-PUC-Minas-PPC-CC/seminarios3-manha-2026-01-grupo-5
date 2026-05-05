@@ -18,7 +18,7 @@
 |                  | Pedro Fonseca Prado |
 |                  | Tiago da Silva Farias |
 | **E-mail de contato** | alexandreamaral843@gmail.com |
-|                        | geovannapereira922@gmail.com |
+|                        | geovanna.pereira@sga.pucminas.br |
 |                        | jean.silva.1391332@sga.pucminas.br |
 |                        | otaviomagalhaes25@gmail.com |
 |                        | pedrofprado219@gmail.com |
