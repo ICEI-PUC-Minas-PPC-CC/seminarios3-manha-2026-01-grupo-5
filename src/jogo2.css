@@ -53,6 +53,26 @@ nav a {
     font-weight: bold;
     font-size: 18px;
 }
+.modal-vitoria {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--branco);
+    padding: 30px;
+    border-radius: 30px;
+    border: 4px solid var(--verde-jogar);
+    box-shadow: 0 0 50px rgba(0,0,0,0.2);
+    z-index: 10;
+    text-align: center;
+    width: 300px;
+}
+
+.modal-vitoria h3 {
+    color: var(--azul-header);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
 
 .game-box {
     background: #f0f9ff;
@@ -62,17 +82,18 @@ nav a {
     margin: 15px auto;
     text-align: center;
     border: 2px solid #e0f2fe;
-    /* Adicionado para centralizar o conteúdo interno */
     display: flex;
     flex-direction: column;
     align-items: center; 
+    position: relative;
 }
 
 .memory-grid {
     display: grid;
-    gap: 15px;
-    margin: 20px auto; /* O 'auto' centraliza o bloco do grid */
-    width: fit-content; /* O grid se ajusta ao tamanho das cartas */
+    gap: 12px; /* Reduzi um pouco o gap para caber melhor */
+    margin: 20px auto;
+    width: fit-content;
+    max-width: 90%; /* Garante que o grid não ultrapasse o container */
 }
 
 .memory-item {
@@ -82,19 +103,21 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2.2rem;
+    font-size: 2rem;
     color: white;
     cursor: pointer;
     box-shadow: 0 5px 0 #60a5fa;
     transition: all 0.2s ease;
-    width: 100px; /* Tamanho padrão para níveis 1 e 2 */
+    width: 90px; /* Tamanho padrão para níveis 1 e 2 */
+    height: 90px;
 }
 
 /* ESTILO PARA NÍVEIS 3 E 4 (MAIS CARTAS) */
 .grid-compacto { gap: 8px; }
 .grid-compacto .memory-item {
-    width: 80px;      /* Reduz tamanho da carta */
-    font-size: 1.8rem; /* Reduz tamanho do ícone */
+    width: 75px;      /* Reduz tamanho da carta */
+    height: 75px;
+    font-size: 1.6rem; /* Reduz tamanho do ícone */
     border-radius: 10px;
     box-shadow: 0 4px 0 #60a5fa;
 }

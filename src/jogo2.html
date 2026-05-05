@@ -17,24 +17,41 @@
             <nav><a href="inicio.html">Início</a></nav>
         </header>
 
-        <main class="main-content">
-            <div class="game-box">
-                <h2 id="nivel-titulo">Nível 1</h2>
-                <p class="subtitle">Encontre os pares de valores iguais!</p>
-                
-                <div id="memory-grid" class="memory-grid">
-                    </div>
+       <main class="main-content">
+    <div class="game-box">
+        <h2 id="nivel-titulo">Nível 1</h2>
+        <p class="subtitle">Encontre os pares de valores iguais!</p>
+        
+        <div id="memory-grid" class="memory-grid"></div>
 
-                <button id="btn-jogar" class="btn-play-action" onclick="iniciarJogo()">JOGAR</button>
-            </div>
-        </main>
+        <!-- Botão de Ação Principal -->
+        <button id="btn-jogar" class="btn-play-action" onclick="iniciarJogo()">JOGAR</button>
+
+        <!-- NOVO: Modal de Mensagem Interna -->
+        <div id="modal-vitoria" class="modal-vitoria" style="display: none;">
+            <h3 id="modal-msg">Mandou bem!</h3>
+            <button id="btn-proximo" class="btn-play-action" onclick="avançarNivel()">PRÓXIMO NÍVEL</button>
+        </div>
+    </div>
+</main>
 
         <footer class="footer-controls">
             <button class="help-btn">🤟 Como Jogar?</button>
-            <button class="help-btn blue">▶ Tutorial em LIBRAS</button>
         </footer>
     </div>
 
     <script src="jogo2.js"></script>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
 </body>
 </html>

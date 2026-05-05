@@ -1,8 +1,12 @@
 const configFases = {
-    1: { pares: 4, colunas: 4 }, // 8 cartas
-    2: { pares: 5, colunas: 5 }, // 10 cartas
-    3: { pares: 8, colunas: 4 }, // 16 cartas (Compacto)
-    4: { pares: 10, colunas: 5 } // 20 cartas (Compacto)
+    1: { pares: 2, colunas: 2 }, // 4 cartas
+    2: { pares: 3, colunas: 3 }, // 6 cartas
+    3: { pares: 4, colunas: 4 }, // 8 cartas
+    4: { pares: 5, colunas: 5 }, // 10 cartas
+    5: { pares: 6, colunas: 4 }, // 12 cartas
+    6: { pares: 7, colunas: 5 }, // 14 cartas (Compacto)
+    7: { pares: 8, colunas: 4 }, // 16 cartas (Compacto)
+    8: { pares: 10, colunas: 5 } // 20 cartas (Compacto)
 };
 
 let nivelAtual = 1;
@@ -21,8 +25,8 @@ function prepararTabuleiro() {
     btn.innerText = "JOGAR";
     bloqueado = true; 
 
-    // Ajusta o tamanho das cartas se for nível difícil
-    if (nivelAtual >= 3) {
+    // Ativa modo compacto a partir do nível 5
+    if (nivelAtual >= 5) {
         grid.classList.add('grid-compacto');
     } else {
         grid.classList.remove('grid-compacto');
@@ -31,7 +35,6 @@ function prepararTabuleiro() {
     grid.innerHTML = '';
     grid.style.gridTemplateColumns = `repeat(${config.colunas}, 1fr)`;
 
-    // Placeholders iniciais
     for (let i = 0; i < config.pares * 2; i++) {
         const item = document.createElement('div');
         item.classList.add('memory-item');
@@ -39,7 +42,6 @@ function prepararTabuleiro() {
         grid.appendChild(item);
     }
 }
-
 function iniciarJogo() {
     const grid = document.getElementById('memory-grid');
     const btn = document.getElementById('btn-jogar');
@@ -110,19 +112,47 @@ function checarPar() {
     bloqueado = false;
 }
 
+// Atualize a verificação de vitória para suportar o limite de 8
 function verificarVitoria() {
     const acertos = document.querySelectorAll('.correct').length;
     if (acertos === configFases[nivelAtual].pares * 2) {
-        setTimeout(() => {
-            if (nivelAtual < 4) {
-                alert("Mandou bem!");
-                nivelAtual++;
-                prepararTabuleiro();
-            } else {
-                alert("🏆 VOCÊ É O MESTRE DOS VALORES!");
-            }
-        }, 500);
+        bloqueado = true;
+        setTimeout(exibirModalVitoria, 500);
     }
+}
+
+function exibirModalVitoria() {
+    const modal = document.getElementById('modal-vitoria');
+    const msg = document.getElementById('modal-msg');
+    const btnProximo = document.getElementById('btn-proximo');
+    const grid = document.getElementById('memory-grid');
+
+    grid.style.opacity = "0.3"; // Escurece o fundo de leve
+    modal.style.display = "block";
+
+    if (nivelAtual < 8) {
+        msg.innerText = "Mandou bem!";
+        btnProximo.innerText = "PRÓXIMO NÍVEL";
+    } else {
+        msg.innerText = "🏆 VOCÊ É O MESTRE DOS VALORES!";
+        btnProximo.innerText = "REINICIAR JOGO";
+    }
+}
+
+function avançarNivel() {
+    const modal = document.getElementById('modal-vitoria');
+    const grid = document.getElementById('memory-grid');
+
+    modal.style.display = "none";
+    grid.style.opacity = "1";
+
+    if (nivelAtual < 8) {
+        nivelAtual++;
+    } else {
+        nivelAtual = 1; // Reinicia o jogo
+    }
+    
+    prepararTabuleiro();
 }
 
 window.onload = prepararTabuleiro;

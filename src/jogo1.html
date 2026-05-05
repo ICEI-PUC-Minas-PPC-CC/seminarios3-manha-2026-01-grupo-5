@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogos dos Valores - Desafio</title>
+    <title>Jogos das Combinações - Valores</title>
     <link rel="stylesheet" href="jogo1.css">
 </head>
 <body>
@@ -37,7 +37,6 @@
 
         <footer class="footer-controls">
             <button class="help-btn">🤟 Como Jogar?</button>
-            <button class="help-btn blue">▶ Tutorial em LIBRAS</button>
         </footer>
     </div>
 
@@ -51,5 +50,17 @@
     </div>
 
     <script src="jogo1.js"></script>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
 </body>
 </html>
