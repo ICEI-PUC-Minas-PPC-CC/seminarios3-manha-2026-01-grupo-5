@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instruções</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="header-container">
+            <div class="logo-area">
+                <img src="imgs/logo.png" alt="Logo" class="logo-img">
+                <h1>Jogos dos <span>Valores</span></h1>
+            </div>
+            <nav>
+                <a href="index.html">Início</a> | 
+                <a href="contato.html">Contato</a>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <h2>Central de Ajuda</h2>
+            <p class="subtitle">Clique no jogo para ver o passo a passo detalhado.</p>
+            
+            <div class="games-selection">
+                <!-- Botão Tab Jogo 1 -->
+                <div class="game-card tab-btn" id="btn-jogo1">
+                    <div class="game-icon-container">
+                        <img src="imgs/combinacoes.png" alt="Combine" class="game-icon-img">
+                    </div>
+                    <h3>Jogo da Combinação</h3>
+                </div>
+
+                <!-- Botão Tab Jogo 2 -->
+                <div class="game-card tab-btn" id="btn-jogo2">
+                    <div class="game-icon-container">
+                        <img src="imgs/memoria.png" alt="Memória" class="game-icon-img">
+                    </div>
+                    <h3>Jogo da Memória</h3>
+                </div>
+            </div>
+
+            <!-- Conteúdo Jogo 1 -->
+            <div id="inst-jogo1" class="tab-content" style="display:none;">
+                <div class="detalhes-instrucao">
+                    <h3>📖 Como jogar: Jogo da Combinação</h3>
+                    <ul>
+                        <li><strong>Objetivo:</strong> Associar a imagem de uma boa ação ao seu nome correspondente.</li>
+                        <li><strong>Mecânica:</strong> Clique na palavra e depois no quadro da imagem correta.</li>
+                        <li><strong>Feedback:</strong> Se a palavra ficar <span style="color: green; font-weight: bold;">Verde</span>, você acertou! Se ficar <span style="color: red; font-weight: bold;">Vermelha</span>, tente de novo.</li>
+                        <li><strong>Acessibilidade:</strong> Você também pode usar o VLibras para entender as instruções.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Conteúdo Jogo 2 -->
+            <div id="inst-jogo2" class="tab-content" style="display:none;">
+                <div class="detalhes-instrucao">
+                    <h3>🧠 Como jogar: Jogo da Memória</h3>
+                    <ul>
+                        <li><strong>Objetivo:</strong> Encontrar todos os pares de imagens iguais.</li>
+                        <li><strong>Progressão:</strong> O jogo possui <strong>8 níveis</strong> com dificuldade crescente.</li>
+                        <li><strong>Tempo:</strong> Você tem 10 segundos para memorizar antes das cartas virarem.</li>
+                        <li><strong>Navegação:</strong> Use o botão "Próximo Nível" que aparece após a vitória para avançar.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="margin-top: 30px;"> 
+                <button id="btn-voltar-dinamico" class="btn-play-small" style="display: inline-block;">Voltar</button>
+            </div>
+        </main>
+    </div>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>new window.VLibras.Widget('https://vlibras.gov.br/app');</script>
+    
+    <script src="instrucoes.js"></script>
+
+</body>
+</html>

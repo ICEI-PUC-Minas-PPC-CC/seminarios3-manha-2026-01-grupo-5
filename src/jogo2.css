@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-    width: 1100px; /* Aumentado de 950px para 1100px */
+    width: 1100px;
     background: var(--branco);
     border-radius: 40px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
@@ -39,12 +39,19 @@ body {
     background: linear-gradient(to bottom, #b3e5fc, #ffffff);
 }
 
-.logo-img { width: 55px; height: 55px; object-fit: contain; }
-.logo-area h1 { font-size: 26px; color: var(--azul-header); }
-.logo-area h1 span { color: var(--laranja-valores); }
+.logo-img { 
+    width: 55px; 
+    height: 55px; 
+    object-fit: contain; 
+}
 
-nav {
-    margin-right: 20px;
+.logo-area h1 { 
+    font-size: 26px; 
+    color: var(--azul-header); 
+}
+
+.logo-area h1 span { 
+    color: var(--laranja-valores); 
 }
 
 nav a {
@@ -52,26 +59,6 @@ nav a {
     color: var(--azul-header);
     font-weight: bold;
     font-size: 18px;
-}
-.modal-vitoria {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: var(--branco);
-    padding: 30px;
-    border-radius: 30px;
-    border: 4px solid var(--verde-jogar);
-    box-shadow: 0 0 50px rgba(0,0,0,0.2);
-    z-index: 10;
-    text-align: center;
-    width: 300px;
-}
-
-.modal-vitoria h3 {
-    color: var(--azul-header);
-    font-size: 24px;
-    margin-bottom: 20px;
 }
 
 .game-box {
@@ -86,14 +73,15 @@ nav a {
     flex-direction: column;
     align-items: center; 
     position: relative;
+    min-height: 500px;
 }
 
 .memory-grid {
     display: grid;
-    gap: 12px; /* Reduzi um pouco o gap para caber melhor */
+    gap: 12px;
     margin: 20px auto;
     width: fit-content;
-    max-width: 90%; /* Garante que o grid não ultrapasse o container */
+    max-width: 90%;
 }
 
 .memory-item {
@@ -108,18 +96,14 @@ nav a {
     cursor: pointer;
     box-shadow: 0 5px 0 #60a5fa;
     transition: all 0.2s ease;
-    width: 90px; /* Tamanho padrão para níveis 1 e 2 */
+    width: 90px;
     height: 90px;
 }
 
-/* ESTILO PARA NÍVEIS 3 E 4 (MAIS CARTAS) */
-.grid-compacto { gap: 8px; }
 .grid-compacto .memory-item {
-    width: 75px;      /* Reduz tamanho da carta */
+    width: 75px;
     height: 75px;
-    font-size: 1.6rem; /* Reduz tamanho do ícone */
-    border-radius: 10px;
-    box-shadow: 0 4px 0 #60a5fa;
+    font-size: 1.6rem;
 }
 
 .memory-item.flipped {
@@ -127,6 +111,7 @@ nav a {
     transform: rotateY(180deg);
     box-shadow: none;
     border: 2px solid var(--azul-header);
+    color: #1e293b;
 }
 
 .memory-item.correct {
@@ -145,7 +130,10 @@ nav a {
     font-weight: bold;
     box-shadow: 0 6px 0 var(--verde-sombra);
     cursor: pointer;
+    font-family: 'Comfortaa';
 }
+
+.btn-play-action:active { transform: translateY(3px); }
 
 .btn-play-action:disabled {
     background: #94a3b8;
@@ -153,13 +141,38 @@ nav a {
     cursor: not-allowed;
 }
 
-.help-btn { background: #f1f5f9; border: 2px solid #e2e8f0; padding: 10px 20px; border-radius: 50px; font-weight: bold; cursor: pointer; }
+.modal-vitoria {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--branco);
+    padding: 30px;
+    border-radius: 30px;
+    border: 4px solid var(--verde-jogar);
+    box-shadow: 0 0 50px rgba(0,0,0,0.2);
+    z-index: 10;
+    text-align: center;
+    width: 320px;
+}
 
 .footer-controls {
     display: flex;
-    justify-content: flex-start; /* Alinha ao início */
+    justify-content: flex-start;
     gap: 20px;
     margin-top: 10px;
-    padding-left: 50px; /* Empurra os botões para a direita */
-    padding-right: 50px;
+    padding-left: 50px;
 }
+
+.help-btn {
+    background: #f1f5f9;
+    border: 2px solid #e2e8f0;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #334155;
+    cursor: pointer;
+    font-family: 'Comfortaa';
+}
+
+.help-btn:hover { background: #e2e8f0; }

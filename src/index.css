@@ -17,7 +17,7 @@
 }
 
 body {
-    font-family: 'Comfortaa', cursive, sans-serif; /* Fonte arredondada e infantil */
+    font-family: 'Comfortaa', cursive, sans-serif; /* Fonte arredondada */
     background-color: var(--azul-fundo);
     display: flex;
     justify-content: center;
@@ -25,7 +25,7 @@ body {
     min-height: 100vh;
 }
 
-/* Container Principal (Branco com bordas arredondadas) */
+/* Container */
 .container {
     width: 1000px;
     background: var(--branco);
@@ -35,7 +35,7 @@ body {
     padding-bottom: 40px;
 }
 
-/* HEADER */
+/* Header */
 
 .header-container {
     padding: 20px 40px;
@@ -82,21 +82,8 @@ nav a:hover {
     color: var(--laranja-valores);
 }
 
-.btn-libras-top {
-    background: var(--azul-botao-libras);
-    color: white;
-    padding: 10px 25px;
-    border-radius: 20px;
-    border: none;
-    font-weight: bold;
-    box-shadow: 0 4px 0 #3d8bc4;
-    cursor: pointer;
-    font-family: 'Comfortaa', sans-serif;
-}
+/*Main*/
 
-/* =========================================
-   CONTEÚDO PRINCIPAL (SELEÇÃO DE JOGOS)
-   ========================================= */
 .main-content {
     text-align: center;
     padding: 40px 20px;
@@ -125,7 +112,6 @@ nav a:hover {
     color: inherit;
 }
 
-/* CARDS DOS JOGOS */
 .game-card {
     background: var(--branco);
     border-radius: 35px;
@@ -145,7 +131,6 @@ nav a:hover {
     box-shadow: 0 20px 35px rgba(0,0,0,0.1);
 }
 
-/* CONTAINER DA IMAGEM DO MINI JOGO */
 .game-icon-container {
     width: 100%;
     height: 180px;
@@ -175,7 +160,6 @@ nav a:hover {
     margin-bottom: 25px;
 }
 
-/* BOTÃO JOGAR (DENTRO DO CARD) */
 .btn-play-small {
     background: var(--verde-jogar);
     color: white;
@@ -195,9 +179,7 @@ nav a:hover {
     box-shadow: 0 2px 0 var(--verde-sombra);
 }
 
-/* =========================================
-   RODAPÉ (AUXÍLIO)
-   ========================================= */
+/* RODAPÉ */
 .footer-controls {
     display: flex;
     justify-content: center;
@@ -221,11 +203,48 @@ nav a:hover {
     background: #e2e8f0;
 }
 
-.help-btn.blue {
-    color: #0369a1;
+.tab-content {
+    margin-top: 30px;
+    animation: fadeIn 0.5s ease;
 }
 
-/* AJUSTE PARA O PLUGIN VLIBRAS NÃO ATRAPALHAR O LAYOUT */
-.enabled {
-    z-index: 9999;
+.detalhes-instrucao {
+    background: #f8fafc;
+    border: 2px dashed var(--azul-header);
+    border-radius: 25px;
+    padding: 30px;
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
 }
+
+.detalhes-instrucao h3 {
+    color: var(--azul-header);
+    margin-bottom: 15px;
+}
+
+.detalhes-instrucao ul {
+    list-style: none;
+}
+
+.detalhes-instrucao li {
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: var(--texto-cinza);
+    padding-left: 25px;
+    position: relative;
+}
+
+.detalhes-instrucao li::before {
+    content: "✨";
+    position: absolute;
+    left: 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.tab-btn { cursor: pointer; transition: transform 0.2s; }
+.tab-btn:active { transform: scale(0.95); }

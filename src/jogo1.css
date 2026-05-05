@@ -26,7 +26,7 @@ body {
 }
 
 .container {
-    width: 1000px; /* Tamanho harmônico[cite: 9] */
+    width: 1000px;
     background: var(--branco);
     border-radius: 40px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
@@ -77,7 +77,7 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center; 
-    justify-content: center; /* Início centralizado[cite: 9] */
+    justify-content: center;
     min-height: 420px;
 }
 
@@ -198,7 +198,6 @@ nav a {
     text-transform: uppercase;
 }
 
-/* BOTÃO JOGAR */
 .btn-play-action {
     background: var(--verde-jogar); 
     color: white; 
@@ -211,7 +210,11 @@ nav a {
     cursor: pointer;
 }
 
-/* MODAL */
+.btn-play-action:active {
+    transform: translateY(3px);
+    box-shadow: 0 2px 0 var(--verde-sombra);
+}
+
 #modal-feedback {
     display: none; 
     position: fixed; 
@@ -262,4 +265,8 @@ nav a {
     font-weight: bold; 
     cursor: pointer; 
     font-size: 14px; 
+}
+
+.help-btn:hover {
+    background: #e2e8f0;
 }

@@ -25,7 +25,7 @@ function prepararTabuleiro() {
     btn.innerText = "JOGAR";
     bloqueado = true; 
 
-    // Ativa modo compacto a partir do nível 5
+    // Ativa modo compacto a partir do 5
     if (nivelAtual >= 5) {
         grid.classList.add('grid-compacto');
     } else {
@@ -112,7 +112,7 @@ function checarPar() {
     bloqueado = false;
 }
 
-// Atualize a verificação de vitória para suportar o limite de 8
+// Verificação de vitória para suportar o limite de 8
 function verificarVitoria() {
     const acertos = document.querySelectorAll('.correct').length;
     if (acertos === configFases[nivelAtual].pares * 2) {
@@ -127,7 +127,7 @@ function exibirModalVitoria() {
     const btnProximo = document.getElementById('btn-proximo');
     const grid = document.getElementById('memory-grid');
 
-    grid.style.opacity = "0.3"; // Escurece o fundo de leve
+    grid.style.opacity = "0.3";
     modal.style.display = "block";
 
     if (nivelAtual < 8) {

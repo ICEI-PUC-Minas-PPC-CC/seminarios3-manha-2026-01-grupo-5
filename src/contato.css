@@ -13,8 +13,8 @@
 
 /* Base da Página */
 body {
-    font-family: 'Comfortaa', cursive, sans-serif;[cite: 2]
-    background-color: var(--azul-fundo);[cite: 2]
+    font-family: 'Comfortaa', cursive, sans-serif;
+    background-color: var(--azul-fundo);
     margin: 0;
     display: flex;
     justify-content: center;
@@ -23,9 +23,9 @@ body {
 }
 
 .container {
-    width: 1000px;[cite: 2]
-    background: var(--branco);[cite: 2]
-    border-radius: 40px;[cite: 2]
+    width: 1000px;
+    background: var(--branco);
+    border-radius: 40px;
     box-shadow: var(--sombra);
     overflow: hidden;
     display: flex;
@@ -35,19 +35,19 @@ body {
 /* Header */
 .header-container {
     padding: 30px 50px;
-    background: linear-gradient(to bottom, #b3e5fc, #ffffff);[cite: 2]
+    background: linear-gradient(to bottom, #b3e5fc, #ffffff);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo-area h1 {
-    color: var(--azul-primario);[cite: 2]
+    color: var(--azul-primario);
     margin: 0;
 }
 
 .logo-area h1 span {
-    color: var(--laranja-destaque);[cite: 2]
+    color: var(--laranja-destaque);
 }
 
 nav a {
@@ -70,12 +70,12 @@ nav a:hover, .nav-active {
 
 .main-content h2 {
     font-size: 36px;
-    color: #2c7bb6;[cite: 2]
+    color: #2c7bb6;
     margin-bottom: 10px;
 }
 
 .subtitle {
-    color: var(--texto-cor);[cite: 2]
+    color: var(--texto-cor);
     margin-bottom: 40px;
 }
 
@@ -89,7 +89,7 @@ nav a:hover, .nav-active {
 
 .contact-card {
     background: #f8fafc;
-    border: 2px solid #e2e8f0;[cite: 1, 2]
+    border: 2px solid #e2e8f0;
     border-radius: 30px;
     padding: 25px;
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -99,7 +99,7 @@ nav a:hover, .nav-active {
 }
 
 .contact-card:hover {
-    transform: translateY(-10px);[cite: 2]
+    transform: translateY(-10px);
     border-color: var(--azul-primario);
     background: var(--branco);
     box-shadow: 0 15px 30px rgba(30, 136, 229, 0.15);
@@ -140,7 +140,7 @@ nav a:hover, .nav-active {
 .help-btn {
     padding: 15px 30px;
     border-radius: 50px;
-    border: 2px solid #e2e8f0;[cite: 2]
+    border: 2px solid #e2e8f0;
     font-family: 'Comfortaa', sans-serif;
     font-weight: bold;
     cursor: pointer;
@@ -148,7 +148,7 @@ nav a:hover, .nav-active {
 }
 
 .help-btn.blue {
-    color: var(--azul-primario);[cite: 2]
+    color: var(--azul-primario);
 }
 
 .help-btn:hover {

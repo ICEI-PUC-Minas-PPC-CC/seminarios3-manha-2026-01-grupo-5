@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogos das Combinações - Valores</title>
+    <title>Jogos das Combinações</title>
+    <!-- Link Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="jogo1.css">
 </head>
 <body>
     <div class="container">
         <header class="header-container">
             <div class="logo-area">
-                <img src="logo.png" alt="Logo" class="logo-img">
+                <img src="imgs/logo.png" alt="Logo" class="logo-img">
                 <h1>Jogos dos <span>Valores</span></h1>
             </div>
-            <nav><a href="inicio.html">Início</a></nav>
+            <nav><a href="index.html">Início</a></nav>
         </header>
 
         <main class="game-box" id="game-box">
@@ -36,11 +40,10 @@
         </main>
 
         <footer class="footer-controls">
-            <button class="help-btn">🤟 Como Jogar?</button>
-        </footer>
+         <button class="help-btn" onclick="window.location.href='instrucoes.html?jogo=1'">🤟 Como Jogar?</button>        </footer>
     </div>
 
-    <!-- MODAL DE FEEDBACK -->
+    <!-- FEEDBACK -->
     <div id="modal-feedback">
         <div class="modal-content">
             <h2 id="modal-titulo">Atenção</h2>
