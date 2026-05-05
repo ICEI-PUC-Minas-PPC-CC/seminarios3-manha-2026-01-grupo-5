@@ -42,4 +42,12 @@ src/
 
 ## Deploy
 
-*(Descreva como foi feito o deploy e onde a aplicação está hospedada.)*
+O deploy foi realizado utilizando a plataforma Netlify, um serviço de hospedagem em nuvem para aplicações web estáticas.
+
+Inicialmente, os arquivos do projeto (HTML, CSS e JavaScript) foram organizados com o arquivo principal "index.html" na raiz do diretório. Em seguida, foi feito o upload direto desses arquivos na plataforma Netlify por meio da funcionalidade de deploy manual (arrastar e soltar).
+
+Após o envio, o Netlify realizou automaticamente a publicação da aplicação, gerando um link público de acesso. Dessa forma, a aplicação ficou disponível na internet sem a necessidade de configuração de servidor.
+
+A aplicação está hospedada na plataforma Netlify e pode ser acessada através do link:
+https://jogo-dos-valores.netlify.app/
+
