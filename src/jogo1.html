@@ -3,12 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Combine os Valores - Jogo 1</title>
+    <title>Jogos dos Valores - Desafio</title>
     <link rel="stylesheet" href="jogo1.css">
-    
 </head>
 <body>
-
     <div class="container">
         <header class="header-container">
             <div class="logo-area">
@@ -18,24 +16,38 @@
             <nav><a href="inicio.html">Início</a></nav>
         </header>
 
-        <main class="main-content">
-            <div class="game-box">
-                <h2 id="nivel-titulo">Nível 1</h2>
-                <p class="subtitle">Selecione a palavra e depois a imagem correta!</p>
-                
-                <div class="match-container">
-                    <div id="coluna-palavras" class="column"></div>
-                    <div id="coluna-imagens" class="column"></div>
-                </div>
+        <main class="game-box" id="game-box">
+            <h2 id="nivel-titulo">Início</h2>
+            <p id="instrucao" class="subtitle">Bem-vindo! Clique em Jogar para começar.</p>
 
-                <button id="btn-proximo" class="btn-play-action" style="display: none;" onclick="proximoNivel()">PRÓXIMO NÍVEL</button>
+            <!-- ETAPA 1: COMBINAÇÃO -->
+            <div id="match-area" class="match-container" style="display: none;">
+                <div id="coluna-palavras"></div>
+                <div id="coluna-imagens"></div>
             </div>
+
+            <!-- ETAPA 2: ESCRITA -->
+            <div id="escrita-container" style="display: none;">
+                <div id="imagem-pergunta"></div>
+                <input type="text" id="input-palavra" placeholder="ESCREVA AQUI" autocomplete="off">
+            </div>
+
+            <button id="btn-acao" class="btn-play-action" onclick="gerenciarBotaoPrincipal()">JOGAR</button>
         </main>
 
         <footer class="footer-controls">
-            <button class="help-btn">🤟 Ajuda</button>
-            <button class="help-btn blue">▶ Tutorial LIBRAS</button>
+            <button class="help-btn">🤟 Como Jogar?</button>
+            <button class="help-btn blue">▶ Tutorial em LIBRAS</button>
         </footer>
+    </div>
+
+    <!-- MODAL DE FEEDBACK -->
+    <div id="modal-feedback">
+        <div class="modal-content">
+            <h2 id="modal-titulo">Atenção</h2>
+            <p id="modal-mensagem"></p>
+            <button onclick="fecharModal()" class="modal-btn-ok">OK</button>
+        </div>
     </div>
 
     <script src="jogo1.js"></script>
