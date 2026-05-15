@@ -13,7 +13,7 @@
 | Geovanna Pereira Sargaço | JavaScript |
 | Jean Willian Silva | Organização do grupo e JavaScript |
 |Otávio Magalhães Almeida Andrade | CSS |
-| Pedro Fonseca Prado | Gravação em libras |
+| Pedro Fonseca Prado | HTML |
 | Tiago da Silva Farias | HTML |
 
 ## 2. Cronograma de Desenvolvimento
