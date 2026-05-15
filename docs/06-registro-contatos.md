@@ -16,21 +16,17 @@
 
 | Campo | Informação |
 | ------- | ----------- |
-| Data | 06/03/2026 |
-| Forma de contato | Online |
+| Data | 12/06/2026 |
+| Forma de contato | Presencial |
 | Participantes do grupo | Alexandre Francisco Pereira do Amaral |
-|                        | Geovanna Pereira Sargaço |
-|                        | Jean Willian Silva |
 |                        | Otávio Magalhães Almeida Andrade |
 |                        | Pedro Fonseca Prado |
-|                        | Tiago da Silva Farias |
 | Participantes da comunidade | Professora Fabiana Scassiotti Fernandes Solia |
-| Objetivo do contato | Entender as principais demandas e necessidades da comunidade envolvendo a área da tecnologia |
+| Objetivo do contato | Verificar e validar se o site atende os requisitos dos membros da comunidade |
 
-**Resumo do que foi tratado:**
-Os principais objetivos e necessidades apontadas pela comunidade envolvem a necessidade de desenvolver um tema anual. Neste ano, o tema escolhido foi valores.
-A representante da comunidade deu algumas ideias de aplicação, envolvendo jogos simples que integram os alunos com a tecnologia e com os temas alvos.
-Os pontos obrigatórios do projeto envolvem estar dentro do tema proposto (Valores), ser de fácil acesso e ser amigável para o público alvo. 
+*Resumo do que foi tratado:*
+Foi tratado acerca da simplicidade e a facilidade de entendimento que a parte visual do site forneceria para os membros da comunidade.
+Além de algumas fases dos jogos, mostramos o tradutor automático por linguagens de sinais disponibilizado pelo governo.
 
 **Encaminhamentos:**
 As próximas interações envolvem confirmar com a comunidade as ferramentas necessárias e se as possuem para fácil acesso do público alvo com o projeto.
