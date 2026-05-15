@@ -57,7 +57,7 @@ Nossa aplicação será um site que possuem dois mini-games distintos mas comple
 |           | JavaScript (lógica do jogo) |
 | Back-end (se houver) | N/A |
 | Banco de dados (se houver) | N/A |
-| Hospedagem | Github Pages |
+| Hospedagem | Netlify |
 | Outras ferramentas | N/A |
 
 ## 7. Protótipo / Wireframes
@@ -74,5 +74,5 @@ Nossa aplicação será um site que possuem dois mini-games distintos mas comple
 
 ## 9. Funcionalidades Desejáveis (se houver tempo)
 
-- Dificuldades diferentes
+- Dificuldade crescente
 - Mais mini jogos disponíveis
