@@ -28,7 +28,7 @@
 |                        | otaviomagalhaes25@gmail.com |
 |                        | pedrofprado219@gmail.com |
 |                        | tiagofarias209@gmail.com |
-| Telefone de contato | +55 (35) 9 9157-7759 |
+| Telefone de contato | +55 (35) 9 1018-8559 |
 
 ## 2. Dados da Comunidade / Instituição Parceira
 
