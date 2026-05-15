@@ -68,7 +68,7 @@ Os principais objetivos e necessidades apontadas pela comunidade envolvem a nece
 | Data | Forma de contato | Resumo do que foi tratado |
 | ------ | ----------------- | -------------------------- |
 | 06/03/2026 | Online | Entender as principais demandas e necessidades da comunidade envolvendo a área da tecnologia |
-| | | |
+| 12/05/2026 | Presencial | Apresentar o protótipo do site para a comunidade e ver se está de acordo com as necessidades da mesma |
 | | | |
 
 ## 5. Agendamento da Entrega Presencial
@@ -85,11 +85,11 @@ Os principais objetivos e necessidades apontadas pela comunidade envolvem a nece
 
 ## 6. Autorização
 
-- [ ] O representante da comunidade autorizou o desenvolvimento voluntário e entrega do software.
-- [ ] As demandas refletem necessidades reais identificadas em contato com a comunidade.
-- [ ] O representante está ciente de que o professor poderá entrar em contato para validação e acompanhamento.
-- [ ] Foi autorizado o registro fotográfico da entrega para fins de documentação acadêmica.
-- [ ] A comunidade se compromete a disponibilizar horários para reuniões durante o desenvolvimento.
+- [x] O representante da comunidade autorizou o desenvolvimento voluntário e entrega do software.
+- [x] As demandas refletem necessidades reais identificadas em contato com a comunidade.
+- [x] O representante está ciente de que o professor poderá entrar em contato para validação e acompanhamento.
+- [x] Foi autorizado o registro fotográfico da entrega para fins de documentação acadêmica.
+- [x] A comunidade se compromete a disponibilizar horários para reuniões durante o desenvolvimento.
 
 ## 7. Cláusula LGPD
 
