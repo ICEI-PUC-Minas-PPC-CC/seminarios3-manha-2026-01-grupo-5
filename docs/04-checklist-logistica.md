@@ -1,39 +1,39 @@
 # 04- — Checklist de Preparação e Logística
 
-> **Aplicação:** *(preencher)*  
-> **Data prevista para entrega:** *(preencher)*  
-> **Local:** *(preencher)*
+> **Aplicação:** Site Jogo dos Valores  
+> **Data prevista para entrega:** N/A
+> **Local:** PUC Minas 
 
 ---
 
 ## 📋 Etapa 1 — Planejamento Inicial
 
-- [ ] Grupo formado e registrado no Canvas
-- [ ] Comunidade/colégio identificado
-- [ ] Primeiro contato realizado com a comunidade
-- [ ] Demandas levantadas e documentadas (`06-registro-contatos.md`)
-- [ ] Tema/aplicação definido
-- [ ] Termo de autorização preenchido e assinado (`01-termo-autorizacao.md`)
-- [ ] Termo enviado ao professor para validação
-- [ ] **Termo aprovado pelo professor**
+- [x] Grupo formado e registrado no Canvas
+- [x] Comunidade/colégio identificado
+- [x] Primeiro contato realizado com a comunidade
+- [x] Demandas levantadas e documentadas (`06-registro-contatos.md`)
+- [x] Tema/aplicação definido
+- [x] Termo de autorização preenchido e assinado (`01-termo-autorizacao.md`)
+- [x] Termo enviado ao professor para validação
+- [x] **Termo aprovado pelo professor**
 
 ## 📋 Etapa 2 — Requisitos e Prototipação
 
-- [ ] Documento de requisitos elaborado (`02-documento-requisitos.md`)
-- [ ] Protótipo/wireframes criados
-- [ ] Protótipo validado com a comunidade
-- [ ] Tecnologias definidas
-- [ ] Plano de desenvolvimento elaborado (`03-plano-desenvolvimento.md`)
+- [x] Documento de requisitos elaborado (`02-documento-requisitos.md`)
+- [x] Protótipo/wireframes criados
+- [x] Protótipo validado com a comunidade
+- [x] Tecnologias definidas
+- [x] Plano de desenvolvimento elaborado (`03-plano-desenvolvimento.md`)
 
 ## 📋 Etapa 3 — Desenvolvimento
 
-- [ ] Repositório configurado com a estrutura do template
-- [ ] Desenvolvimento do MVP iniciado
-- [ ] Contato intermediário com a comunidade para validação
-- [ ] MVP funcional concluído
-- [ ] Testes realizados
-- [ ] Deploy em nuvem realizado (se aplicável)
-- [ ] Aplicação acessível pela Internet
+- [x] Repositório configurado com a estrutura do template
+- [x] Desenvolvimento do MVP iniciado
+- [x] Contato intermediário com a comunidade para validação
+- [x] MVP funcional concluído
+- [x] Testes realizados
+- [x] Deploy em nuvem realizado (se aplicável)
+- [x] Aplicação acessível pela Internet
 
 ## 📋 Etapa 4 — Entrega Presencial
 
