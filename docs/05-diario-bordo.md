@@ -1,7 +1,7 @@
 # 05 — Diário de Bordo do Grupo
 
-> **Grupo:** *(preencher)*  
-> **Aplicação:** *(preencher)*
+> **Grupo:** Grupo 5  
+> **Aplicação:** Site mini jogos
 
 ---
 
@@ -11,47 +11,19 @@
 
 ## Registro de Atividades
 
-### Semana 01 — ___/___/___ a ___/___/___
+### Mês 01 — 01/03/2026 a 31/03/2026
 
 **O que foi feito:**
-*(Descrever as atividades realizadas nesta semana: desenvolvimento, reuniões, testes, etc.)*
+Parte gráfica e lógica dos jogos feitas.
 
-**Quem participou:**
-*(Listar integrantes envolvidos.)*
-
-**Decisões técnicas tomadas:**
-*(Alguma decisão relevante sobre tecnologia, escopo, design, etc.?)*
-
-**Próximos passos:**
-*(O que precisa ser feito na próxima semana?)*
-
----
-
-### Semana 02 — ___/___/___ a ___/___/___
-
-**O que foi feito:**
-
-**Quem participou:**
+**Quem participou:*
+O grupo todo.
 
 **Decisões técnicas tomadas:**
+Nós optamos por não ter backend pois não havia necessidade, mudamos o fornecedor do servidor.
 
 **Próximos passos:**
-
----
-
-### Semana 03 — ___/___/___ a ___/___/___
-
-**O que foi feito:**
-
-**Quem participou:**
-
-**Decisões técnicas tomadas:**
-
-**Próximos passos:**
-
----
-
-*(Copie o bloco acima para cada semana de atividade ao longo do semestre.)*
+Apresentar o trabalho para a comunidade e ver se está ok com o necessário.
 
 ---
 
