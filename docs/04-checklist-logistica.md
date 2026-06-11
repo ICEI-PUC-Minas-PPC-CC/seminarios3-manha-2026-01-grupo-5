@@ -50,8 +50,8 @@
 ## 📋 Etapa 5 — Pós-Entrega e Relatórios
 
 - [ ] Fotos organizadas em `evidencias/fotos/`
-- [ ] Prints de tela da aplicação salvos em `evidencias/prints/`
-- [ ] Diário de bordo finalizado (`05-diario-bordo.md`)
+- [x] Prints de tela da aplicação salvos em `evidencias/prints/`
+- [x] Diário de bordo finalizado (`05-diario-bordo.md`)
 - [ ] Relatório de atividades preenchido no APC (baseado em `07-relatorio-atividades.md`)
 - [ ] Autoavaliação individual preenchida no APC
 - [ ] Relatório revisado (cronograma detalhado, evidências anexadas)
