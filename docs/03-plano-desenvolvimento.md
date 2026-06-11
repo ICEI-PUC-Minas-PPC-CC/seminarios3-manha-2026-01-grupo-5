@@ -32,7 +32,7 @@
 | 10 | 10-05 | Testes e ajustes | Jean Willian Silva | iniciado |
 | 11 | 11-05 | Deploy / hospedagem | Geovanna Pereira Sargaço | iniciado |
 | 12 | 12-05 | Validação final com a comunidade | Otávio Magalhães Almeida Andrade | iniciado |
-| 13 | | **Entrega presencial** | Todos | não iniciado |
+| 13 | 11-06 | **Entrega presencial** | Todos |  iniciado |
 | 14 | | Preenchimento dos relatórios APC | Todos | não iniciado |
 
 > Ajuste o cronograma conforme o calendário do semestre e os feriados.
@@ -46,7 +46,7 @@
 | Protótipo aprovado | 12-05 | Wireframes validados com a comunidade |
 | MVP funcional | 10-05 | Funcionalidades mínimas operacionais |
 | Deploy realizado | 11-05 | Aplicação acessível pela Internet |
-| Entrega presencial | | Software apresentado à comunidade |
+| Entrega presencial | 11-06 | Software apresentado à comunidade |
 | Relatórios APC | | Relatório e autoavaliação preenchidos |
 
 ## 4. Estratégia de Desenvolvimento
