@@ -33,6 +33,7 @@ Apresentar o trabalho para a comunidade e ver se está ok com o necessário.
 **Local:**  Puc Minas
 **Horário:** 14:30 às 15:00  
 **Participantes do grupo presentes:**  Alexandre Amaral, Geovanna Pereira, Jean Silva, Otávio Magalhães, Pedro Fonseca e Tiago Silva.
+
 **Nº de participantes da comunidade:** 6 participantes.
 
 ### Descrição da entrega
