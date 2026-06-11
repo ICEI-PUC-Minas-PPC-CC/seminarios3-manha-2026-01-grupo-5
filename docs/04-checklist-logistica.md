@@ -37,15 +37,15 @@
 
 ## 📋 Etapa 4 — Entrega Presencial
 
-- [ ] Data e horário confirmados com o colégio
-- [ ] Local confirmado (colégio ou PUC Minas)
-- [ ] Aplicação testada no ambiente de entrega (navegador, internet)
-- [ ] Plano B preparado (versão offline, se possível)
-- [ ] Transporte/deslocamento do grupo planejado
-- [ ] Todos os integrantes confirmados para o dia
-- [ ] **Entrega realizada**
-- [ ] Fotos registradas (mínimo 10 fotos variadas)
-- [ ] Software demonstrado e explicado aos usuários
+- [x] Data e horário confirmados com o colégio
+- [x] Local confirmado (colégio ou PUC Minas)
+- [x] Aplicação testada no ambiente de entrega (navegador, internet)
+- [x] Plano B preparado (versão offline, se possível)
+- [x] Transporte/deslocamento do grupo planejado
+- [x] Todos os integrantes confirmados para o dia
+- [x] **Entrega realizada**
+- [x] Fotos registradas (mínimo 10 fotos variadas)
+- [x] Software demonstrado e explicado aos usuários
 
 ## 📋 Etapa 5 — Pós-Entrega e Relatórios
 
