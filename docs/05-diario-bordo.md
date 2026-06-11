@@ -29,20 +29,20 @@ Apresentar o trabalho para a comunidade e ver se está ok com o necessário.
 
 ## Registro da Entrega Presencial
 
-**Data:** ___/___/___  
-**Local:**  
-**Horário:** ___ às ___  
-**Participantes do grupo presentes:**  
-**Nº de participantes da comunidade:**
+**Data:** 11/06/2026  
+**Local:**  Puc Minas
+**Horário:** 14:30 às 15:00  
+**Participantes do grupo presentes:**  Alexandre Amaral, Geovanna Pereira, Jean Silva, Otávio Magalhães, Pedro Fonseca e Tiago Silva.
+**Nº de participantes da comunidade:** 6 participantes.
 
 ### Descrição da entrega
 
-(Relatar como foi a entrega: demonstração do software, reação dos usuários, dúvidas que surgiram, etc.)
+Realizamos a apresentação do jogo desenvolvido pela equipe para os membros da comunidade. Os participantes puderam jogar, conhecer os objetivos do projeto (valores), além de compartilhar impressões e sugestões. A atividade proporcionou uma experiência prática e interativa, incentivando o engajamento do público com a tecnologia.
 
 ### Feedback da comunidade
 
-(O que os usuários e responsáveis da comunidade acharam do software?)
+O feedback recebido foi bastante positivo. Os participantes demonstraram interesse e engajamento durante a atividade.
 
 ### Lições aprendidas
 
-(O que o grupo faria diferente no desenvolvimento? O que deu certo?)
+Aprendemos que a acessibilidade deve ser considerada desde o início do desenvolvimento. O projeto evidenciou a importância de recursos visuais e de uma interface intuitiva para atender pessoas surdas e mudas. Também percebemos como a validação com o público é fundamental para criar soluções mais inclusivas e eficazes.
