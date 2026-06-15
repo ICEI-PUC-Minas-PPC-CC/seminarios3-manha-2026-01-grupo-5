@@ -16,7 +16,24 @@
 
 | Campo | Informação |
 | ------- | ----------- |
-| Data | 12/06/2026 |
+| Data | 06/03/2026 |
+| Forma de contato | Online |
+| Participantes do grupo | Jean Willian |
+| Participantes da comunidade | |
+| Objetivo do contato | Contato com comunidade e levantamento de demandas |
+
+**Resumo do que foi tratado:**
+
+**Encaminhamentos:**
+
+
+---
+
+### Contato #2
+
+| Campo | Informação |
+| ------- | ----------- |
+| Data | 23/04/2026 |
 | Forma de contato | Presencial |
 | Participantes do grupo | Alexandre Francisco Pereira do Amaral |
 |                        | Otávio Magalhães Almeida Andrade |
@@ -34,39 +51,26 @@ Além disso, pequenos protótipos podem ser apresentados para a representante da
 
 ---
 
-### Contato #2
-
-| Campo | Informação |
-| ------- | ----------- |
-| Data | |
-| Forma de contato | |
-| Participantes do grupo | |
-| Participantes da comunidade | |
-| Objetivo do contato | |
-
-**Resumo do que foi tratado:**
-
-**Encaminhamentos:**
-
----
-
 ### Contato #3
 
 | Campo | Informação |
 | ------- | ----------- |
-| Data | |
-| Forma de contato | |
-| Participantes do grupo | |
-| Participantes da comunidade | |
-| Objetivo do contato | |
+| Data | 11/06/2026 |
+| Forma de contato | Presencial |
+| Participantes do grupo | Alexandre Amaral |
+|                        | Geovanna Sargaço |
+|                        | Jean Willian |
+|                        | Otávio Andrade |
+|                        | Pedro Prado |
+|                        | Tiago Silva |
+| Participantes da comunidade | Estudantes e professores |
+| Objetivo do contato | Apresentar o trabalho para a comunidade. |
 
 **Resumo do que foi tratado:**
+Foi feita a apresentação final do site interativo desenvolvido e adaptado. Durante o evento, foram mostradas as funcionalidades da plataforma, com foco na acessibilidade digital, usabilidade e na aplicação prática dos jogos pedagógicos inclusivos. A comunidade validou a proposta, destacando a relevância da ferramenta para o aprendizado e a inclusão social, resultando o encerramento bem-sucedido desta etapa do projeto.
 
 **Encaminhamentos:**
-
----
-
-(Copie o bloco acima para cada contato adicional.)
+Finalizar e enviar o relatorio da APC.
 
 ---
 
