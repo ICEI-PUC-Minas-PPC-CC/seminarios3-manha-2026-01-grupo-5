@@ -8,9 +8,9 @@
 
 | Campo | Informação |
 |-------|-----------|
-| Nome da aplicação | *(preencher)* |
-| Tecnologias utilizadas | *(preencher)* |
-| URL em produção | *(preencher, se hospedado)* |
+| Nome da aplicação | Jogo dos Valores |
+| Tecnologias utilizadas | HTML5 CSS3 JavaScript |
+| URL em produção | https://jogo-dos-valores.netlify.app/ |
 
 ## Como Executar Localmente
 
