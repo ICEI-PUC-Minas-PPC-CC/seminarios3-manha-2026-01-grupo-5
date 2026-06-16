@@ -75,11 +75,11 @@ Os principais objetivos e necessidades apontadas pela comunidade envolvem a nece
 
 | Campo | Informação |
 | ------- | ----------- |
-| Data prevista para entrega | |
-| Horário de início | |
-| Horário de término | |
-| Local de realização | |
-| Data alternativa | |
+| Data prevista para entrega | 11/06/2026 |
+| Horário de início | 14:00 |
+| Horário de término | 14:30 |
+| Local de realização | PUC Minas |
+| Data alternativa | Não foi preciso |
 
 > **Obs.:** A entrega deve ser, preferencialmente, presencial. O agendamento está sujeito à confirmação pelo professor responsável.
 
