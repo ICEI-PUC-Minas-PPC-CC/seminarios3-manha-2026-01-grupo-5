@@ -9,11 +9,11 @@
 | Campo | Informação |
 | ------- | ----------- |
 | Nome do Grupo | |
-| Integrantes participantes | |
+| Integrantes participantes | Alexandre Amaral, Geovanna Sargaço, Jean Willian, Otávio Andrade, Pedro Prado, Tiago Silva |
 | Disciplina | Seminários III |
-| Comunidade atendida | |
-| Software desenvolvido | |
-| URL da aplicação (se hospedada) | |
+| Comunidade atendida | Escola Municipal Doutor Tarso de Coimbra |
+| Software desenvolvido | Jogo dos Valores - Um site com mini-jogos com o tema valores |
+| URL da aplicação (se hospedada) | https://jogo-dos-valores.netlify.app/ |
 
 ## Cronograma de Desenvolvimento
 
@@ -21,17 +21,17 @@
 
 | Data | Etapa | Descrição do que foi feito |
 | ------ | ------- | --------------------------- |
-| | Formação do grupo | |
-| | Contato inicial com a comunidade | |
-| | Levantamento de demandas | |
-| | Definição de requisitos | |
-| | Prototipação / wireframes | |
-| | Desenvolvimento — Sprint 1 | |
-| | Validação intermediária com a comunidade | |
-| | Desenvolvimento — Sprint 2 | |
-| | Testes e ajustes | |
-| | Deploy em nuvem | |
-| | **Entrega presencial do software** | |
+| 18/02 à 25/02 | Formação do grupo | |
+| 06/03 | Contato inicial com a comunidade | |
+| 06/03 | Levantamento de demandas | |
+| 21/03 | Definição de requisitos | |
+| 21/03 | Prototipação / wireframes | |
+| 20/04| Desenvolvimento — Sprint 1 | |
+| 23/04 | Validação intermediária com a comunidade | |
+| 23/04 à 25/04 | Desenvolvimento — Sprint 2 | |
+| 10/05 | Testes e ajustes | |
+| 11/05 | Deploy em nuvem | |
+| 11/06 | **Entrega presencial do software** | |
 | | Preenchimento dos relatórios | |
 
 ## Descrição das Atividades Realizadas
@@ -48,11 +48,11 @@
 
 ### Entrega
 
-(Como foi a entrega presencial? Quantos participantes? Como foi a recepção do software pela comunidade?)
+Realizamos a apresentação do jogo desenvolvido pela equipe para os membros da comunidade. Os participantes puderam jogar, conhecer os objetivos do projeto (valores), além de compartilhar impressões e sugestões. A atividade proporcionou uma experiência prática e interativa, incentivando o engajamento do público com a tecnologia.
 
 ### Resultados
 
-(O software atendeu às demandas? Feedback da comunidade? O software está acessível pela Internet?)
+O feedback recebido foi bastante positivo. Os participantes demonstraram interesse e engajamento durante a atividade.
 
 ## Evidências para Anexar no APC
 
@@ -60,13 +60,13 @@
 
 > Anexar fotos da entrega presencial do software. As fotos devem mostrar a interação com a comunidade.
 
-- [ ] Fotos salvas em `evidencias/fotos/`
+- [x] Fotos salvas em `evidencias/fotos/`
 
 ### Prints de tela da aplicação
 
 > Anexar prints das principais telas da aplicação desenvolvida.
 
-- [ ] Prints salvos em `evidencias/prints/`
+- [x] Prints salvos em `evidencias/prints/`
 
 ## Observações
 
