@@ -44,15 +44,19 @@
 
 ### Desenvolvimento
 
-(Quais tecnologias foram utilizadas? Como foi organizado o trabalho? Principais desafios técnicos?)
+O projeto foi desenvolvido utilizando tecnologias nativas de front-end. O HTML5 foi usado para organizar a estrutura das páginas, o CSS3 (com Flexbox e Grid) ficou responsável pelo design responsivo, pela identidade visual e pelas animações das cartas, e o JavaScript foi utilizado para criar a lógica dos jogos, controlar os níveis e atualizar os elementos da tela conforme as ações do usuário. Também foram integrados o widget VLibras, para tornar a aplicação mais acessível.
+
+O trabalho foi organizado de forma modular e colaborativa, dividindo a aplicação em arquivos separados (Início, Instruções, Jogo 1 e Jogo 2). Essa divisão facilitou o desenvolvimento, a manutenção e a distribuição das tarefas entre os integrantes, que trabalharam na programação em JavaScript, na estilização em CSS e na implementação dos recursos de acessibilidade e navegação.
+
+Os principais desafios técnicos foram criar um layout adaptável para o Jogo 2, reduzindo automaticamente o tamanho das cartas a partir do nível 5 para acomodar até 20 elementos em telas menores, e desenvolver um sistema de navegação utilizando URLSearchParams no botão “Voltar” das instruções, garantindo que o usuário retornasse ao jogo de origem sem perder o fluxo de uso da aplicação.
 
 ### Entrega
 
-Realizamos a apresentação do jogo desenvolvido pela equipe para os membros da comunidade. Os participantes puderam jogar, conhecer os objetivos do projeto (valores), além de compartilhar impressões e sugestões. A atividade proporcionou uma experiência prática e interativa, incentivando o engajamento do público com a tecnologia.
+Foi realizada a apresentação final da plataforma interativa desenvolvida pela equipe para os membros da comunidade, como parte das atividades da disciplina. Durante o evento, foram demonstradas as funcionalidades do site, com ênfase na acessibilidade digital, usabilidade e na aplicação prática dos jogos pedagógicos inclusivos. A atividade proporcionou uma experiência prática e interativa, permitindo que os participantes conhecessem os objetivos e os valores do projeto, resultando no encerramento bem-sucedido desta etapa.
 
 ### Resultados
 
-O feedback recebido foi bastante positivo. Os participantes demonstraram interesse e engajamento durante a atividade.
+O feedback recebido por parte da comunidade foi bastante positivo. Os participantes demonstraram forte interesse e engajamento durante a atividade, jogando e compartilhando suas impressões e sugestões. A proposta foi amplamente validada pelo público, que destacou a relevância da ferramenta para o aprendizado e para a inclusão social.
 
 ## Evidências para Anexar no APC
 
