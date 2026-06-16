@@ -8,7 +8,7 @@
 
 | Campo | Informação |
 | ------- | ----------- |
-| Nome do Grupo | |
+| Nome do Grupo | Grupo 5 |
 | Integrantes participantes | Alexandre Amaral, Geovanna Sargaço, Jean Willian, Otávio Andrade, Pedro Prado, Tiago Silva |
 | Disciplina | Seminários III |
 | Comunidade atendida | Escola Municipal Doutor Tarso de Coimbra |
