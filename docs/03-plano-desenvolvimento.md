@@ -20,20 +20,20 @@
 
 | Semana | Período (dd/MM à dd/MM) | Atividade planejada | Responsável | Status |
 | :------: | --------- | -------------------- | -----------: | :------: |
-| 1 | 18/02 à 25/02 | Formação do grupo | Todos | iniciado |
-| 2 | 06/03 | Contato com comunidade e Levantamento de demandas | Jean Willian Silva | iniciado |
-| 3 | 21/03 | Definição de requisitos | Jean Willian Silva | iniciado |
-| 4 | 21/03 | Prototipação / wireframes | Geovanna Pereira Sargaço | iniciado |
-| 5 | 23-04 | Desenvolvimento — Sprint 1 | Tiago da Silva Farias | iniciado |
-| 6 | 25-04 | Desenvolvimento — Sprint 1 | Pedro Fonseca Prado | iniciado |
-| 7 | 23-04 | Validação com a comunidade | Jean Willian Silva | iniciado |
-| 8 | 20-04 | Desenvolvimento — Sprint 2 | Alexandre Francisco Pereira do Amaral | iniciado |
-| 9 | 25-04 | Desenvolvimento — Sprint 2 | Geovanna Pereira Sargaço | iniciado |
-| 10 | 10-05 | Testes e ajustes | Jean Willian Silva | iniciado |
-| 11 | 11-05 | Deploy / hospedagem | Geovanna Pereira Sargaço | iniciado |
-| 12 | 12-05 | Validação final com a comunidade | Otávio Magalhães Almeida Andrade | iniciado |
-| 13 | 11-06 | **Entrega presencial** | Todos |  iniciado |
-| 14 | | Preenchimento dos relatórios APC | Todos | não iniciado |
+| 1 | 18/02 à 25/02 | Formação do grupo | Todos | finalizado |
+| 2 | 06/03 | Contato com comunidade e Levantamento de demandas | Jean Willian Silva | finalizado |
+| 3 | 21/03 | Definição de requisitos | Jean Willian Silva | finalizado |
+| 4 | 21/03 | Prototipação / wireframes | Geovanna Pereira Sargaço | finalizado |
+| 5 | 23/03 | Desenvolvimento — Sprint 1 | Tiago da Silva Farias | finalizado |
+| 6 | 23/03 | Desenvolvimento — Sprint 1 | Pedro Fonseca Prado | finalizado |
+| 7 | 25/03 | Validação com a comunidade | Jean Willian Silva | finalizado |
+| 8 | 20/04 | Desenvolvimento — Sprint 2 | Alexandre Francisco Pereira do Amaral | finalizado |
+| 9 | 25/04 | Desenvolvimento — Sprint 2 | Geovanna Pereira Sargaço | finalizado |
+| 10 | 10/05 | Testes e ajustes | Jean Willian Silva | finalizado |
+| 11 | 11/05 | Deploy / hospedagem | Geovanna Pereira Sargaço | finalizado |
+| 12 | 12/05 | Validação final com a comunidade | Otávio Magalhães Almeida Andrade | finalizado |
+| 13 | 11/06 | **Entrega presencial** | Todos |  finalizado |
+| 14 | | Preenchimento dos relatórios APC | Todos | iniciado |
 
 > Ajuste o cronograma conforme o calendário do semestre e os feriados.
 
@@ -42,11 +42,11 @@
 | Marco | Data prevista | Critério de conclusão |
 | ------- | :------------: | ---------------------- |
 | Demandas levantadas | 06/03 | Registro de contato com a comunidade |
-| Requisitos definidos | 21-03 | Documento `02-documento-requisitos.md` preenchido |
-| Protótipo aprovado | 12-05 | Wireframes validados com a comunidade |
-| MVP funcional | 10-05 | Funcionalidades mínimas operacionais |
-| Deploy realizado | 11-05 | Aplicação acessível pela Internet |
-| Entrega presencial | 11-06 | Software apresentado à comunidade |
+| Requisitos definidos | 21/03 | Documento `02-documento-requisitos.md` preenchido |
+| Protótipo aprovado | 12/05 | Wireframes validados com a comunidade |
+| MVP funcional | 10/05 | Funcionalidades mínimas operacionais |
+| Deploy realizado | 11/05 | Aplicação acessível pela Internet |
+| Entrega presencial | 11/06 | Software apresentado à comunidade |
 | Relatórios APC | | Relatório e autoavaliação preenchidos |
 
 ## 4. Estratégia de Desenvolvimento
