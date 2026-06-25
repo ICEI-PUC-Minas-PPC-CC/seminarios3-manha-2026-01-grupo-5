@@ -4,8 +4,8 @@
 
 - [ ] Visualizado
 - [ ] Pendente
-- [x] Enviado ao professor
-- [ ] Aprovado  
+- [ ] Enviado ao professor
+- [x] Aprovado  
 
 > **Versão do termo .docx:** [baixar na atividade do Canvas]
 
