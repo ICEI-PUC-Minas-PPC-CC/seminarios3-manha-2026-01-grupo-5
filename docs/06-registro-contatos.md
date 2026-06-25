@@ -61,7 +61,7 @@ Além disso, pequenos protótipos podem ser apresentados para a representante da
 | Participantes do grupo | Geovanna Sargaço |
 | Participantes do grupo | Jean Willian |
 | Participantes do grupo | Otávio Andrade |
-|                        | Pedro Prado |
+| Participantes do grupo | Pedro Prado |
 |                        | Tiago Silva |
 | Participantes da comunidade | Estudantes e professores |
 | Objetivo do contato | Apresentar o trabalho para a comunidade. |
