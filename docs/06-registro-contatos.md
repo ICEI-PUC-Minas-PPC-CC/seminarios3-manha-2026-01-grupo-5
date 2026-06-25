@@ -58,7 +58,7 @@ Além disso, pequenos protótipos podem ser apresentados para a representante da
 | Data | 11/06/2026 |
 | Forma de contato | Presencial |
 | Participantes do grupo | Alexandre Amaral |
-|                        | Geovanna Sargaço |
+| Participantes do grupo | Geovanna Sargaço |
 |                        | Jean Willian |
 |                        | Otávio Andrade |
 |                        | Pedro Prado |
