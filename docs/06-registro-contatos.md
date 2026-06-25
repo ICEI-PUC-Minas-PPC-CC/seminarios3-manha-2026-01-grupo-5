@@ -62,7 +62,7 @@ Além disso, pequenos protótipos podem ser apresentados para a representante da
 | Participantes do grupo | Jean Willian |
 | Participantes do grupo | Otávio Andrade |
 | Participantes do grupo | Pedro Prado |
-|                        | Tiago Silva |
+| Participantes do grupo | Tiago Silva |
 | Participantes da comunidade | Estudantes e professores |
 | Objetivo do contato | Apresentar o trabalho para a comunidade. |
 
