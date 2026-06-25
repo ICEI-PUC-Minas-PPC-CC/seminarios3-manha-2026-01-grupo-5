@@ -21,26 +21,26 @@
 
 | Data | Etapa | Descrição do que foi feito |
 | ------ | ------- | --------------------------- |
-| 18/02 à 25/02 | Formação do grupo | |
-| 06/03 | Contato inicial com a comunidade | |
-| 06/03 | Levantamento de demandas | |
-| 21/03 | Definição de requisitos | |
-| 21/03 | Prototipação / wireframes | |
-| 20/04| Desenvolvimento — Sprint 1 | |
-| 23/04 | Validação intermediária com a comunidade | |
-| 23/04 à 25/04 | Desenvolvimento — Sprint 2 | |
-| 10/05 | Testes e ajustes | |
-| 11/05 | Deploy em nuvem | |
-| 11/06 | **Entrega presencial do software** | |
-| | Preenchimento dos relatórios | |
+| 18/02 à 25/02 | Formação do grupo | Escolha dos membros do grupo |
+| 06/03 | Contato inicial com a comunidade | Contato através de video-chamada |
+| 06/03 | Levantamento de demandas | Levantamento feito através de video-chamadas |
+| 21/03 | Definição de requisitos | Planejamento da ideia principal e conexão com o mundo real |
+| 21/03 | Prototipação / wireframes | Realizado nos primeiros meses para testes de lógica e resposta |
+| 20/04| Desenvolvimento — Sprint 1 | Realizado em grupo para maior integração dos integrantes |
+| 23/04 | Validação intermediária com a comunidade | Realizado através de uma visita pessoal sobre a Tarso para melhor entendimento das necessidades |
+| 23/04 à 25/04 | Desenvolvimento — Sprint 2 | Apenas uma parte do grupo acabou realizando esse processo |
+| 10/05 | Testes e ajustes | Realizado por todos, e principalmente na visita a Tarso, onde podemos ver alguém de fora testando o protótipo |
+| 11/05 | Deploy em nuvem | Ideia inicial seria o github pages, porém vimos maior facilidade no netlify |
+| 11/06 | **Entrega presencial do software** | Entrega realizada com sucesso, com bastante interação do público com os jogos e funcionalidades do site |
+| | Preenchimento dos relatórios | Realizado com sucesso, onde cada um preencheu as devidas partes dispoíveis |
 
 ## Descrição das Atividades Realizadas
 
-(Descreva de forma detalhada as atividades desenvolvidas ao longo do semestre.)
+A principal atividade desenvolvida foi a criação do site, principalmente a parte onde mesclamos as três tecnologias do front-end, bem como os testes sobre cada funcionalidade presente no site.
 
 ### Levantamento de demandas
 
-(Como foi o contato com a comunidade? Quantas reuniões? Quais demandas foram identificadas?)
+O contato com a comunidade se deve principalmente por video-chamada e por uma visita presencial com o protótimo em mãos para avaliação prévia da representante sobre o protótipo proposto.
 
 ### Desenvolvimento
 
@@ -74,4 +74,4 @@ O feedback recebido por parte da comunidade foi bastante positivo. Os participan
 
 ## Observações
 
-(Dificuldades, aprendizados, sugestões para próximas turmas, etc.)
+A maior dificuldade foi tentar desenvolver um projeto do zero com tecnologias que possuíamos pouco conhecimento, além da dificuldade de mesclar o trabalho de todos em um funcional. 
