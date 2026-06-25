@@ -36,7 +36,7 @@
 | Data | 23/04/2026 |
 | Forma de contato | Presencial |
 | Participantes do grupo | Alexandre Francisco Pereira do Amaral |
-|                        | Otávio Magalhães Almeida Andrade |
+| Participantes do grupo | Otávio Magalhães Almeida Andrade |
 |                        | Pedro Fonseca Prado |
 | Participantes da comunidade | Professora Fabiana Scassiotti Fernandes Solia |
 | Objetivo do contato | Verificar e validar se o site atende os requisitos dos membros da comunidade |
