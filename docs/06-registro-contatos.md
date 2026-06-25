@@ -60,7 +60,7 @@ Além disso, pequenos protótipos podem ser apresentados para a representante da
 | Participantes do grupo | Alexandre Amaral |
 | Participantes do grupo | Geovanna Sargaço |
 | Participantes do grupo | Jean Willian |
-|                        | Otávio Andrade |
+| Participantes do grupo | Otávio Andrade |
 |                        | Pedro Prado |
 |                        | Tiago Silva |
 | Participantes da comunidade | Estudantes e professores |
