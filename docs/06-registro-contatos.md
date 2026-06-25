@@ -59,7 +59,7 @@ Além disso, pequenos protótipos podem ser apresentados para a representante da
 | Forma de contato | Presencial |
 | Participantes do grupo | Alexandre Amaral |
 | Participantes do grupo | Geovanna Sargaço |
-|                        | Jean Willian |
+| Participantes do grupo | Jean Willian |
 |                        | Otávio Andrade |
 |                        | Pedro Prado |
 |                        | Tiago Silva |
