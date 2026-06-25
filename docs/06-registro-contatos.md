@@ -19,7 +19,7 @@
 | Data | 06/03/2026 |
 | Forma de contato | Online |
 | Participantes do grupo | Jean Willian |
-| Participantes da comunidade | |
+| Participantes da comunidade | |Professora Fabiana Scassiotti Fernandes Solia |
 | Objetivo do contato | Contato com comunidade e levantamento de demandas |
 
 **Resumo do que foi tratado:**
