@@ -32,7 +32,7 @@
 | 10/05 | Testes e ajustes | Realizado por todos, e principalmente na visita a Tarso, onde podemos ver alguém de fora testando o protótipo |
 | 11/05 | Deploy em nuvem | Ideia inicial seria o github pages, porém vimos maior facilidade no netlify |
 | 11/06 | **Entrega presencial do software** | Entrega realizada com sucesso, com bastante interação do público com os jogos e funcionalidades do site |
-| | Preenchimento dos relatórios | Realizado com sucesso, onde cada um preencheu as devidas partes dispoíveis |
+| 25/06 | Preenchimento dos relatórios | Realizado com sucesso, onde cada um preencheu as devidas partes disponíveis |
 
 ## Descrição das Atividades Realizadas
 
